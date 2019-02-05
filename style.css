@@ -26,6 +26,57 @@ Version: 1.0
 #RESPONSIVE STYLE
 */
 
+/*--------*/
+/* Custom */
+/*--------*/
+.form-container{
+	padding:100px;
+	margin-top: 1000px;
+}
+
+.form-container>div{
+	padding: 20px;
+}
+
+.form-left{
+	width: 40vw;
+	float: left;
+}
+
+.form-left>iframe{
+	width: inherit;
+}
+
+.form-right{
+	width:40vw;
+	float: left;	
+}
+
+.form-right>img{
+	width: inherit;
+}
+
+
+@media only screen and (max-width: 600px) {
+	.form-container{
+		padding: 0px;
+		margin: 0 auto;
+	}
+	.form-container>div{
+		padding: 0px;
+		margin: 0 auto;
+		width:90vw;
+		float:none;
+		display: block;
+	}
+	
+	.form-left>iframe{
+		margin: 0 auto;
+	}
+	
+	
+}
+
 
 /*--------------------*/
 /* BASIC TYPOGRAPHY */
@@ -53,9 +104,9 @@ body {
 	/* background-image: linear-gradient(to bottom right, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.3)) */
 }
 
-iframe{
+/* iframe{
 	margin-left: 33%;
-}
+} */
 
 .social-media-links{
 	padding-top:20px;
