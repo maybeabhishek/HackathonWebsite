@@ -50,7 +50,11 @@ body {
 	margin-top:15vh;
 	width: 25vw;
 	border-radius: 10px;
-	background-image: linear-gradient(to bottom right, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.3))
+	/* background-image: linear-gradient(to bottom right, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.3)) */
+}
+
+iframe{
+	margin-left: 33%;
 }
 
 .social-media-links{
