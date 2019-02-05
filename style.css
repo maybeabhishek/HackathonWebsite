@@ -59,6 +59,13 @@ Version: 1.0
 	width: inherit;
 }
 
+.navlogo{
+	position: absolute;
+	z-index: 2;
+	top:70px;
+	left:70px;
+	width: 100px;
+}
 
 @media only screen and (max-width: 600px) {
 	.form-container{
